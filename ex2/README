@@ -1,0 +1,44 @@
+shayk96, shahaf_sh
+Shay Kavsha(207902602), Shahaf Shafirshtein(318506631)
+EX: 2
+
+FILES:
+Thread.cpp - Implementaion for the thread class.
+Thread.h - declarations for the thread class.
+utheard.cpp - Implementaion for the given uthread.h (declarations).
+
+Makefile - A makefile to the thread library.
+
+================================
+answers for the theoretical part
+================================
+
+1. For example, in the photoshop program, the program creates a complex process that execute a lot of commands at the
+ same time.
+ For instance, receiving input from the user and present it on the screen. In this case, the program benefits from
+ splitting itself into threads.
+ In user-mode, switching between the threads has low overhead. Low overhead enhances the program efficiency. The
+ Photoshop program access a lot of resources, because the threads share common access to the data, code, open files etc.
+ the overhead is low.
+
+2. Advantages:
+ a. Every tab creates her own process, so all the process can run in parallel on different CPU's.
+ b. Every process is protected from the other processes.
+ c. Independent - if one process crashes or gets blocked, the others doesn't get blocked.
+    Disadvantages:
+ a. High overhead - all operations require a kernel trap.
+ 
+ 3.
+ - open the application
+ - typed "ps -a"
+ - An interrupt was sent to the OS, that made the OS  show all the running processes and thir ID's on the screen. 
+ - Typed "kill <pid>"
+ - An interrupt sent to the OS from the keyboard, this made the OS terminate the corresponding process.
+ - The OS sent a signal that killed the process.
+
+4. Real time = the current time in the OS, for example, the clock.
+   Virtual time = the time that process runs, for example, tab open in Chrome.
+
+5. Sigsetjump - saving the current CPU environment of the threads.
+   Siglonfjump - The siglongjmp() function restores the environment saved by the most recent invocation of sigsetjmp()
+   in the same thread.

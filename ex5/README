@@ -1,0 +1,25 @@
+shayk96, shahaf_sh
+Shay Kavsha(207902602), Shahaf Shafirshtein(318506631)
+EX: 5
+
+FILES:
+container.cpp - Implementation for container part.
+sockets.cpp - Implemetation for sockets part.
+
+Answers for theoretical part:
+1.	The PID namespace provides processes with an independent set of process
+ IDs (PIDs) from other namespaces.
+2.	The process can't see files in the file system of the operating system, it
+ can only see files in it's file system.
+3.	Limiting the number of process the container can create.
+4.	Clone, as fork, creates a new process. Unlike fork, these calls allow
+ the child process execute a different function and has a different
+  namespaces from his parent.
+5.	A chroot on Unix system is an operation that changes the apparent
+ root directory for the current running process and its children.
+6.	The proc filesystem (procfs) is a special filesystem in Unix-like
+ operating systems that presents information about processes and other system.
+  It contains useful information about the processes that are currently
+   running, it is regarded as control and information center for kernel.
+    For example, after creating new container, we will mount the ‘proc’
+     directory inside the file system.

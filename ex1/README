@@ -1,0 +1,28 @@
+shayk96, shahaf_sh
+Shay Kavsh(207902602), Shahaf Shafirshtein(318506631)
+EX: 1
+
+FILES:
+osm.cpp - Implementaion for the given osm.h.
+Makefile - A makefile to the osm.cpp.
+graph - Measurements results graph.
+
+REMARKS:
+-------
+
+ANSWERS:
+
+Q1:
+The program recieves 1 argument and ignores it. 
+The program does:
+1. Opens folder named "Welcome"'.
+2. Opens in the previous folder the folder "To". In other words, Welcome\To.
+3. Inside the "To" folder insert file "OS2021"(Welcome\To\OS2021).
+4. writes "username\nIf you haven't read the course guidline yet--- do it right now!.<arg>".
+5. Deletes the file.
+5. Deletes the foldet "TO".
+6. Deletes the folder "Welcome".
+7. close the program.
+
+
+

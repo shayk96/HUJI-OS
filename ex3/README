@@ -1,0 +1,10 @@
+shayk96, shahaf_sh
+Shay Kavsha(207902602), Shahaf Shafirshtein(318506631)
+EX: 2
+
+FILES:
+Barrier.cpp - Implementation for the Barrier.
+Barrier.h - declarations for the Barrier.
+MapReduceFramework.cpp - Implementation for the given MapReduceFramework.h (declarations).
+JobContext.cpp - Implementation for the jobContext class.
+Makefile - A makefile to the thread library.
